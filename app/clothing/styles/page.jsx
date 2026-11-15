@@ -11,7 +11,7 @@ export default function StylesPage() {
 const looks = [
   {
     title: 'Sultry in the Snow',
-    image: "/images/ourStyles/Outfit1.jpg",
+    image: "/images/ourStyles/outfit1.jpg",
     description: "Cold weather has never looked this good. These two pieces work together effortlessly: one brings the warmth, the other brings the drama, and together they strike that perfect balance between cozy and commanding. The 'Sultry in the Snow' vibe is all about owning winter instead of hiding from it, looking powerful even when the temperature drops. When you wear White Rabbit Co., you're not just staying warm you're making sure nobody forgets you walked into the room.",
     products: clothingArray.filter(item => ['16', '4', '3'].includes(item._id)),
   },
@@ -23,7 +23,7 @@ const looks = [
   },
   {
     title: 'Office Siren',
-    image: "/images/ourStyles/Outfit3.jpg",
+    image: "/images/ourStyles/outfit3.jpg",
     description: "Who said work attire has to be boring? This look proves that structured, professional dressing and a dark, alternative aesthetic aren't mutually exclusive. In fact, they're better together. The two pieces balance each other out perfectly: one grounds the look with polish, while the other keeps it unmistakably you. White Rabbit Co. designs for women who refuse to leave their personality at the door, no matter where the day takes them.",
     products: clothingArray.filter(item => ['7', '2', '9'].includes(item._id)),
   },
